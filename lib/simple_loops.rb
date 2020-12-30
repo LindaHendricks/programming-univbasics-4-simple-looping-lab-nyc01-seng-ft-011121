@@ -30,7 +30,7 @@ end
    new_array = Array.new
    
    while counter < array.length do 
-     new_array.push array[counter].to_s
+     new_array.push(array[counter].to_s)
      counter += 1 
    end
    
